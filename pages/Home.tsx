@@ -268,11 +268,10 @@ const Home: React.FC = () => {
       <section className="py-20 bg-gradient-to-b from-slate-950 to-indigo-950/20">
         <div className="container px-4 mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            Start your journey tonight
+            {t.cta.title}
           </h2>
           <p className="text-slate-400 mb-8 max-w-xl mx-auto">
-            Join thousands of dreamers who are unlocking their subconscious
-            potential with Oneiro.
+            {t.cta.subtitle}
           </p>
           <a
             href="https://play.google.com/store"
@@ -281,7 +280,7 @@ const Home: React.FC = () => {
             className="inline-flex items-center gap-2 bg-white text-slate-950 px-8 py-4 rounded-full font-bold hover:bg-slate-200 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.3)]"
           >
             <Smartphone className="w-5 h-5" />
-            Download Now
+            {t.cta.button}
             <ArrowRight className="w-5 h-5" />
           </a>
         </div>

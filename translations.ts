@@ -60,7 +60,7 @@ export const translations: Record<"en" | "pt", Translation> = {
       howToTitle: "How to request deletion:",
       appMethodTitle: "Method 1: Via App (Recommended)",
       appMethodContent:
-        '1. Open Oneiro.\n2. Go to Settings > Account.\n3. Tap on "Delete My Account".',
+        '1. Open Oneiro.\n2. Go to Settings \n3. Tap on "Delete My Account".',
       emailMethodTitle: "Method 2: Via Email",
       emailMethodContent:
         'If you no longer have access to the app, please send an email to support@oneiro.app with the following information:\n\nSubject: Data Deletion Request - Oneiro\nBody: "I wish to delete my account associated with the email [Insert your registered email here]."',
@@ -118,6 +118,12 @@ export const translations: Record<"en" | "pt", Translation> = {
       section6Title: "6. Governing Law",
       section6Content:
         "These terms are governed by the laws of the Federative Republic of Brazil.",
+    },
+    cta: {
+      title: "Start your journey tonight",
+      button: "Download Now",
+      subtitle:
+        "Join thousands of dreamers who are unlocking their subconscious potential with Oneiro.",
     },
   },
   pt: {
@@ -179,7 +185,7 @@ export const translations: Record<"en" | "pt", Translation> = {
       howToTitle: "Como solicitar a exclusão:",
       appMethodTitle: "Método 1: Pelo App (Recomendado)",
       appMethodContent:
-        '1. Abra o Oneiro.\n2. Vá em Configurações > Conta.\n3. Toque em "Excluir Minha Conta".',
+        '1. Abra o Oneiro.\n2. Vá em Configurações \n3. Toque em "Excluir Minha Conta".',
       emailMethodTitle: "Método 2: Por E-mail",
       emailMethodContent:
         'Se você não tem mais acesso ao aplicativo, envie um e-mail para support@oneiro.app com as seguintes informações:\n\nAssunto: Solicitação de Exclusão de Dados - Oneiro\nCorpo da mensagem: "Desejo excluir minha conta associada ao e-mail [Insira seu e-mail de cadastro aqui]."',
@@ -237,6 +243,12 @@ export const translations: Record<"en" | "pt", Translation> = {
       section6Title: "6. Lei Aplicável",
       section6Content:
         "Estes termos são regidos pelas leis da República Federativa do Brasil.",
+    },
+    cta: {
+      title: "Comece sua jornada hoje à noite",
+      button: "Baixe o App",
+      subtitle:
+        "Junte-se a milhares de sonhadores que estão desbloqueando o potencial do seu subconsciente com o Oneiro.",
     },
   },
 };

@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Oneiro - Dream Journal
 
-# Run and deploy your AI Studio app
+Oneiro is a secure and private dream journal that helps you record, analyze, and understand your dreams. This is the repository for the companion website of the Oneiro app.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/10_jLUSO5gERkeIG11WaozMcp-BIiHATL
+-   **Dream Journaling:** Easily record your dreams with a simple and intuitive interface.
+-   **AI-Powered Analysis:** Get insights into your dream patterns, sentiments, and recurring themes.
+-   **Cloud Sync:** Securely back up and sync your dreams across all your devices.
+-   **Privacy First:** Your dreams are personal. We use end-to-end encryption to ensure your data is safe and private.
+-   **Dream Feed:** Explore a timeline of your dreams and discover new insights.
+-   **Search:** Quickly find specific dreams or symbols in your journal.
+-   **Statistics:** Track your sleep patterns and dream history.
 
-## Run Locally
+## Technologies Used
 
-**Prerequisites:**  Node.js
+-   [React](https://reactjs.org/)
+-   [Vite](https://vitejs.dev/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [React Router](https://reactrouter.com/)
+-   [Lucide React](https://lucide.dev/guide/packages/lucide-react)
 
+## How to Run the Project
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1.  Clone this repository: `git clone https://github.com/your-username/oneirodreamwebsite.git`
+2.  Install dependencies: `npm install`
+3.  Run the development server: `npm run dev`
+4.  Open your browser and navigate to `http://localhost:5173/`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

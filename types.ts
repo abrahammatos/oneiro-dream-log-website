@@ -1,4 +1,4 @@
-export type Language = 'en' | 'pt';
+export type Language = "en" | "pt";
 
 export interface Translation {
   nav: {
@@ -89,5 +89,10 @@ export interface Translation {
     section5Content: string;
     section6Title: string;
     section6Content: string;
-  }
+  };
+  cta: {
+    title: string;
+    subtitle: string;
+    button: string;
+  };
 }
